@@ -1,0 +1,38 @@
+{
+    "type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "area":{
+        "id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name":"United Kingdom",
+        "disambiguation":"",
+        "iso-3166-1-codes":[
+            "GB"
+        ],
+        "sort-name":"United Kingdom"
+    },
+    "id":"83d91898-7763-47d7-b03b-b92132375c47",
+    "disambiguation":"",
+    "life-span":{
+        "ended":true,
+        "begin":"1965",
+        "end":"2014"
+    },
+    "isnis":[
+        "0000000109397559"
+    ],
+    "ipis":[
+
+    ],
+    "gender":null,
+    "sort-name":"Pink Floyd",
+    "end_area":null,
+    "type":"Group",
+    "name":"Pink Floyd",
+    "country":"GB",
+    "begin_area":{
+        "id":"f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "name":"London",
+        "disambiguation":"",
+        "sort-name":"London"
+    },
+    "gender-id":null
+}

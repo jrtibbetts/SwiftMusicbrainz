@@ -8,8 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		968984B7203FEA8E00DE77BC /* SwiftMusicbrainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984AD203FEA8D00DE77BC /* SwiftMusicbrainz.framework */; };
-		968984BC203FEA8E00DE77BC /* SwiftMusicbrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984BB203FEA8E00DE77BC /* SwiftMusicbrainzTests.swift */; };
 		968984BE203FEA8E00DE77BC /* SwiftMusicbrainz.h in Headers */ = {isa = PBXBuildFile; fileRef = 968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968984D4203FEABD00DE77BC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C7203FEABC00DE77BC /* Artist.swift */; };
+		968984D5203FEABD00DE77BC /* Musicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C8203FEABC00DE77BC /* Musicbrainz.swift */; };
+		968984D7203FEABD00DE77BC /* artist-pink-floyd.json in Resources */ = {isa = PBXBuildFile; fileRef = 968984CE203FEABC00DE77BC /* artist-pink-floyd.json */; };
+		968984D8203FEABD00DE77BC /* artist-pink-floyd in Resources */ = {isa = PBXBuildFile; fileRef = 968984CF203FEABC00DE77BC /* artist-pink-floyd */; };
+		968984D9203FEABD00DE77BC /* ISWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D0203FEABC00DE77BC /* ISWC.swift */; };
+		968984DA203FEABD00DE77BC /* MBID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D1203FEABC00DE77BC /* MBID.swift */; };
+		968984DB203FEABD00DE77BC /* MockMusicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */; };
+		968984DC203FEABD00DE77BC /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D3203FEABD00DE77BC /* Work.swift */; };
+		968984E1203FEACF00DE77BC /* ArtistJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984DE203FEACE00DE77BC /* ArtistJsonTests.swift */; };
+		968984E2203FEACF00DE77BC /* MusicbrainzTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */; };
+		968984E5203FEB6F00DE77BC /* JSONTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984E3203FEB6F00DE77BC /* JSONTestBase.swift */; };
+		968984E6203FEB6F00DE77BC /* ClientTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984E4203FEB6F00DE77BC /* ClientTestBase.swift */; };
+		968984EB204091F000DE77BC /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E8204091F000DE77BC /* JSONClient.framework */; };
+		968984EC204091F000DE77BC /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E9204091F000DE77BC /* OAuthSwift.framework */; };
+		968984ED204091F000DE77BC /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984EA204091F000DE77BC /* PromiseKit.framework */; };
+		968984EE2040922A00DE77BC /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E8204091F000DE77BC /* JSONClient.framework */; };
+		968984EF2040922A00DE77BC /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E9204091F000DE77BC /* OAuthSwift.framework */; };
+		968984F02040922A00DE77BC /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984EA204091F000DE77BC /* PromiseKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +44,22 @@
 		968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMusicbrainz.h; sourceTree = "<group>"; };
 		968984B1203FEA8D00DE77BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968984B6203FEA8E00DE77BC /* SwiftMusicbrainzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMusicbrainzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		968984BB203FEA8E00DE77BC /* SwiftMusicbrainzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMusicbrainzTests.swift; sourceTree = "<group>"; };
 		968984BD203FEA8E00DE77BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968984C7203FEABC00DE77BC /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		968984C8203FEABC00DE77BC /* Musicbrainz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Musicbrainz.swift; sourceTree = "<group>"; };
+		968984CE203FEABC00DE77BC /* artist-pink-floyd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "artist-pink-floyd.json"; sourceTree = "<group>"; };
+		968984CF203FEABC00DE77BC /* artist-pink-floyd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "artist-pink-floyd"; sourceTree = "<group>"; };
+		968984D0203FEABC00DE77BC /* ISWC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISWC.swift; sourceTree = "<group>"; };
+		968984D1203FEABC00DE77BC /* MBID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBID.swift; sourceTree = "<group>"; };
+		968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMusicbrainz.swift; sourceTree = "<group>"; };
+		968984D3203FEABD00DE77BC /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		968984DE203FEACE00DE77BC /* ArtistJsonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistJsonTests.swift; sourceTree = "<group>"; };
+		968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicbrainzTestBase.swift; sourceTree = "<group>"; };
+		968984E3203FEB6F00DE77BC /* JSONTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTestBase.swift; sourceTree = "<group>"; };
+		968984E4203FEB6F00DE77BC /* ClientTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTestBase.swift; sourceTree = "<group>"; };
+		968984E8204091F000DE77BC /* JSONClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONClient.framework; path = Carthage/Build/iOS/JSONClient.framework; sourceTree = "<group>"; };
+		968984E9204091F000DE77BC /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
+		968984EA204091F000DE77BC /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968984EB204091F000DE77BC /* JSONClient.framework in Frameworks */,
+				968984EC204091F000DE77BC /* OAuthSwift.framework in Frameworks */,
+				968984ED204091F000DE77BC /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968984EE2040922A00DE77BC /* JSONClient.framework in Frameworks */,
+				968984EF2040922A00DE77BC /* OAuthSwift.framework in Frameworks */,
+				968984F02040922A00DE77BC /* PromiseKit.framework in Frameworks */,
 				968984B7203FEA8E00DE77BC /* SwiftMusicbrainz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +93,7 @@
 				968984AF203FEA8D00DE77BC /* SwiftMusicbrainz */,
 				968984BA203FEA8E00DE77BC /* SwiftMusicbrainzTests */,
 				968984AE203FEA8D00DE77BC /* Products */,
+				968984E7204091EF00DE77BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +109,15 @@
 		968984AF203FEA8D00DE77BC /* SwiftMusicbrainz */ = {
 			isa = PBXGroup;
 			children = (
-				968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */,
+				968984C7203FEABC00DE77BC /* Artist.swift */,
 				968984B1203FEA8D00DE77BC /* Info.plist */,
+				968984D0203FEABC00DE77BC /* ISWC.swift */,
+				968984D1203FEABC00DE77BC /* MBID.swift */,
+				968984CC203FEABC00DE77BC /* Mock Implementation */,
+				968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */,
+				968984C8203FEABC00DE77BC /* Musicbrainz.swift */,
+				968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */,
+				968984D3203FEABD00DE77BC /* Work.swift */,
 			);
 			path = SwiftMusicbrainz;
 			sourceTree = "<group>";
@@ -80,10 +125,40 @@
 		968984BA203FEA8E00DE77BC /* SwiftMusicbrainzTests */ = {
 			isa = PBXGroup;
 			children = (
-				968984BB203FEA8E00DE77BC /* SwiftMusicbrainzTests.swift */,
+				968984DE203FEACE00DE77BC /* ArtistJsonTests.swift */,
+				968984E4203FEB6F00DE77BC /* ClientTestBase.swift */,
 				968984BD203FEA8E00DE77BC /* Info.plist */,
+				968984E3203FEB6F00DE77BC /* JSONTestBase.swift */,
+				968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */,
 			);
 			path = SwiftMusicbrainzTests;
+			sourceTree = "<group>";
+		};
+		968984CC203FEABC00DE77BC /* Mock Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				968984CD203FEABC00DE77BC /* JSON */,
+			);
+			path = "Mock Implementation";
+			sourceTree = "<group>";
+		};
+		968984CD203FEABC00DE77BC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				968984CE203FEABC00DE77BC /* artist-pink-floyd.json */,
+				968984CF203FEABC00DE77BC /* artist-pink-floyd */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		968984E7204091EF00DE77BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968984E8204091F000DE77BC /* JSONClient.framework */,
+				968984E9204091F000DE77BC /* OAuthSwift.framework */,
+				968984EA204091F000DE77BC /* PromiseKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +223,7 @@
 				TargetAttributes = {
 					968984AC203FEA8D00DE77BC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					968984B5203FEA8E00DE77BC = {
@@ -179,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968984D8203FEABD00DE77BC /* artist-pink-floyd in Resources */,
+				968984D7203FEABD00DE77BC /* artist-pink-floyd.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968984D4203FEABD00DE77BC /* Artist.swift in Sources */,
+				968984DA203FEABD00DE77BC /* MBID.swift in Sources */,
+				968984DC203FEABD00DE77BC /* Work.swift in Sources */,
+				968984D5203FEABD00DE77BC /* Musicbrainz.swift in Sources */,
+				968984D9203FEABD00DE77BC /* ISWC.swift in Sources */,
+				968984DB203FEABD00DE77BC /* MockMusicbrainz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968984BC203FEA8E00DE77BC /* SwiftMusicbrainzTests.swift in Sources */,
+				968984E1203FEACF00DE77BC /* ArtistJsonTests.swift in Sources */,
+				968984E5203FEB6F00DE77BC /* JSONTestBase.swift in Sources */,
+				968984E6203FEB6F00DE77BC /* ClientTestBase.swift in Sources */,
+				968984E2203FEACF00DE77BC /* MusicbrainzTestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +421,7 @@
 		968984C2203FEA8E00DE77BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -341,12 +429,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftMusicbrainz/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainz;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +448,7 @@
 		968984C3203FEA8E00DE77BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,9 +456,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftMusicbrainz/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainz;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -376,10 +474,15 @@
 		968984C5203FEA8E00DE77BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MY7LL9G36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftMusicbrainzTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -390,10 +493,15 @@
 		968984C6203FEA8E00DE77BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MY7LL9G36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftMusicbrainzTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
