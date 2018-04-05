@@ -3,6 +3,5 @@
 import XCTest
 
 class ArtistJsonTests: XCTestCase /*, MusicbrainzTestUtilities */ {
-    
 
 }

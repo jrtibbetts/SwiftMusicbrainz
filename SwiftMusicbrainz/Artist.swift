@@ -6,12 +6,12 @@ import Foundation
 public struct Artist: Codable {
 
     public enum ArtistType: String, Codable {
-        case Choir
-        case Character
-        case Group
-        case Orchestra
-        case Other
-        case Person
+        case choir
+        case character
+        case croup
+        case orchestra
+        case other
+        case person
     }
 
     public var name: String

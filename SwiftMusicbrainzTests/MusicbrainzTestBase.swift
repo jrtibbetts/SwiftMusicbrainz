@@ -13,4 +13,3 @@ class MusicbrainzTestBase: JSONTestBase {
     }
 
 }
-
