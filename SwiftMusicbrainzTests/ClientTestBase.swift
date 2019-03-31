@@ -13,11 +13,11 @@ class ClientTestBase: XCTestCase {
         let exp = expectation(description: description)
         var returnableObject: T?
 
-        promise.then { (fetchedObject) -> Void in
+        promise.done { (fetchedObject) -> Void in
             returnableObject = fetchedObject
             exp.fulfill()
-        }.catch { (error) in
-            XCTFail(error.localizedDescription)
+            }.catch { (error) in
+                XCTFail(error.localizedDescription)
         }
 
         wait(for: [exp], timeout: timeoutSeconds)
@@ -31,11 +31,11 @@ class ClientTestBase: XCTestCase {
         let exp = expectation(description: description)
         var returnableError: Error?
 
-        promise.then { (fetchedObject) in
+        promise.done { (fetchedObject) in
             XCTFail("Expected an error to be thrown.")
-        }.catch { (error) -> Void in
-            returnableError = error
-            exp.fulfill()
+            }.catch { (error) -> Void in
+                returnableError = error
+                exp.fulfill()
         }
 
         wait(for: [exp], timeout: timeoutSeconds)
