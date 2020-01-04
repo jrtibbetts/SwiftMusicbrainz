@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		968984B7203FEA8E00DE77BC /* SwiftMusicbrainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984AD203FEA8D00DE77BC /* SwiftMusicbrainz.framework */; };
-		968984BE203FEA8E00DE77BC /* SwiftMusicbrainz.h in Headers */ = {isa = PBXBuildFile; fileRef = 968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		968984D4203FEABD00DE77BC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C7203FEABC00DE77BC /* Artist.swift */; };
 		968984D5203FEABD00DE77BC /* Musicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C8203FEABC00DE77BC /* Musicbrainz.swift */; };
 		968984D7203FEABD00DE77BC /* artist-pink-floyd.json in Resources */ = {isa = PBXBuildFile; fileRef = 968984CE203FEABC00DE77BC /* artist-pink-floyd.json */; };
@@ -21,12 +20,7 @@
 		968984E2203FEACF00DE77BC /* MusicbrainzTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */; };
 		968984E5203FEB6F00DE77BC /* JSONTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984E3203FEB6F00DE77BC /* JSONTestBase.swift */; };
 		968984E6203FEB6F00DE77BC /* ClientTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984E4203FEB6F00DE77BC /* ClientTestBase.swift */; };
-		968984EB204091F000DE77BC /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E8204091F000DE77BC /* JSONClient.framework */; };
-		968984EC204091F000DE77BC /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E9204091F000DE77BC /* OAuthSwift.framework */; };
-		968984ED204091F000DE77BC /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984EA204091F000DE77BC /* PromiseKit.framework */; };
-		968984EE2040922A00DE77BC /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E8204091F000DE77BC /* JSONClient.framework */; };
-		968984EF2040922A00DE77BC /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984E9204091F000DE77BC /* OAuthSwift.framework */; };
-		968984F02040922A00DE77BC /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984EA204091F000DE77BC /* PromiseKit.framework */; };
+		96B1C01323C02CB3003FB3DE /* JSONClient in Frameworks */ = {isa = PBXBuildFile; productRef = 96B1C01223C02CB3003FB3DE /* JSONClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		968984AD203FEA8D00DE77BC /* SwiftMusicbrainz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMusicbrainz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMusicbrainz.h; sourceTree = "<group>"; };
 		968984B1203FEA8D00DE77BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968984B6203FEA8E00DE77BC /* SwiftMusicbrainzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMusicbrainzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968984BD203FEA8E00DE77BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +50,6 @@
 		968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicbrainzTestBase.swift; sourceTree = "<group>"; };
 		968984E3203FEB6F00DE77BC /* JSONTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTestBase.swift; sourceTree = "<group>"; };
 		968984E4203FEB6F00DE77BC /* ClientTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTestBase.swift; sourceTree = "<group>"; };
-		968984E8204091F000DE77BC /* JSONClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONClient.framework; path = Carthage/Build/iOS/JSONClient.framework; sourceTree = "<group>"; };
-		968984E9204091F000DE77BC /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
-		968984EA204091F000DE77BC /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968984EB204091F000DE77BC /* JSONClient.framework in Frameworks */,
-				968984EC204091F000DE77BC /* OAuthSwift.framework in Frameworks */,
-				968984ED204091F000DE77BC /* PromiseKit.framework in Frameworks */,
+				96B1C01323C02CB3003FB3DE /* JSONClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968984EE2040922A00DE77BC /* JSONClient.framework in Frameworks */,
-				968984EF2040922A00DE77BC /* OAuthSwift.framework in Frameworks */,
-				968984F02040922A00DE77BC /* PromiseKit.framework in Frameworks */,
 				968984B7203FEA8E00DE77BC /* SwiftMusicbrainz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +78,6 @@
 				968984AF203FEA8D00DE77BC /* SwiftMusicbrainz */,
 				968984BA203FEA8E00DE77BC /* SwiftMusicbrainzTests */,
 				968984AE203FEA8D00DE77BC /* Products */,
-				968984E7204091EF00DE77BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +100,6 @@
 				968984CC203FEABC00DE77BC /* Mock Implementation */,
 				968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */,
 				968984C8203FEABC00DE77BC /* Musicbrainz.swift */,
-				968984B0203FEA8D00DE77BC /* SwiftMusicbrainz.h */,
 				968984D3203FEABD00DE77BC /* Work.swift */,
 			);
 			path = SwiftMusicbrainz;
@@ -151,16 +134,6 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
-		968984E7204091EF00DE77BC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				968984E8204091F000DE77BC /* JSONClient.framework */,
-				968984E9204091F000DE77BC /* OAuthSwift.framework */,
-				968984EA204091F000DE77BC /* PromiseKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -168,7 +141,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968984BE203FEA8E00DE77BC /* SwiftMusicbrainz.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +161,9 @@
 			dependencies = (
 			);
 			name = SwiftMusicbrainz;
+			packageProductDependencies = (
+				96B1C01223C02CB3003FB3DE /* JSONClient */,
+			);
 			productName = SwiftMusicbrainz;
 			productReference = 968984AD203FEA8D00DE77BC /* SwiftMusicbrainz.framework */;
 			productType = "com.apple.product-type.framework";
@@ -241,6 +216,9 @@
 				Base,
 			);
 			mainGroup = 968984A3203FEA8D00DE77BC;
+			packageReferences = (
+				96B1C01123C02CB3003FB3DE /* XCRemoteSwiftPackageReference "JSONClient" */,
+			);
 			productRefGroup = 968984AE203FEA8D00DE77BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -357,6 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -413,9 +392,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -440,7 +421,12 @@
 				);
 				INFOPLIST_FILE = SwiftMusicbrainz/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainz;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -467,7 +453,12 @@
 				);
 				INFOPLIST_FILE = SwiftMusicbrainz/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainz;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -487,7 +478,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftMusicbrainzTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -506,7 +502,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftMusicbrainzTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftMusicbrainzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -545,6 +546,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96B1C01123C02CB3003FB3DE /* XCRemoteSwiftPackageReference "JSONClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrtibbetts/JSONClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96B1C01223C02CB3003FB3DE /* JSONClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96B1C01123C02CB3003FB3DE /* XCRemoteSwiftPackageReference "JSONClient" */;
+			productName = JSONClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 968984A4203FEA8D00DE77BC /* Project object */;
 }
