@@ -2,7 +2,6 @@
 
 import Foundation
 
-
 public struct Artist: Codable {
 
     public enum ArtistType: String, Codable {

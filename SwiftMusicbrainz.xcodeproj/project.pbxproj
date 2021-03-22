@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960BF8D52608D229005075E1 /* artist-pink-floyd.json in Resources */ = {isa = PBXBuildFile; fileRef = 968984CE203FEABC00DE77BC /* artist-pink-floyd.json */; };
+		960BF8D62608D229005075E1 /* artist-pink-floyd in Resources */ = {isa = PBXBuildFile; fileRef = 968984CF203FEABC00DE77BC /* artist-pink-floyd */; };
+		960BF8E22608D252005075E1 /* MockMusicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */; };
 		968984B7203FEA8E00DE77BC /* SwiftMusicbrainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968984AD203FEA8D00DE77BC /* SwiftMusicbrainz.framework */; };
 		968984D4203FEABD00DE77BC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C7203FEABC00DE77BC /* Artist.swift */; };
 		968984D5203FEABD00DE77BC /* Musicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984C8203FEABC00DE77BC /* Musicbrainz.swift */; };
-		968984D7203FEABD00DE77BC /* artist-pink-floyd.json in Resources */ = {isa = PBXBuildFile; fileRef = 968984CE203FEABC00DE77BC /* artist-pink-floyd.json */; };
-		968984D8203FEABD00DE77BC /* artist-pink-floyd in Resources */ = {isa = PBXBuildFile; fileRef = 968984CF203FEABC00DE77BC /* artist-pink-floyd */; };
 		968984D9203FEABD00DE77BC /* ISWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D0203FEABC00DE77BC /* ISWC.swift */; };
 		968984DA203FEABD00DE77BC /* MBID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D1203FEABC00DE77BC /* MBID.swift */; };
-		968984DB203FEABD00DE77BC /* MockMusicbrainz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */; };
 		968984DC203FEABD00DE77BC /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984D3203FEABD00DE77BC /* Work.swift */; };
 		968984E1203FEACF00DE77BC /* ArtistJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984DE203FEACE00DE77BC /* ArtistJsonTests.swift */; };
 		968984E2203FEACF00DE77BC /* MusicbrainzTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */; };
@@ -97,8 +97,6 @@
 				968984B1203FEA8D00DE77BC /* Info.plist */,
 				968984D0203FEABC00DE77BC /* ISWC.swift */,
 				968984D1203FEABC00DE77BC /* MBID.swift */,
-				968984CC203FEABC00DE77BC /* Mock Implementation */,
-				968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */,
 				968984C8203FEABC00DE77BC /* Musicbrainz.swift */,
 				968984D3203FEABD00DE77BC /* Work.swift */,
 			);
@@ -108,11 +106,13 @@
 		968984BA203FEA8E00DE77BC /* SwiftMusicbrainzTests */ = {
 			isa = PBXGroup;
 			children = (
+				968984BD203FEA8E00DE77BC /* Info.plist */,
 				968984DE203FEACE00DE77BC /* ArtistJsonTests.swift */,
 				968984E4203FEB6F00DE77BC /* ClientTestBase.swift */,
-				968984BD203FEA8E00DE77BC /* Info.plist */,
 				968984E3203FEB6F00DE77BC /* JSONTestBase.swift */,
+				968984D2203FEABD00DE77BC /* MockMusicbrainz.swift */,
 				968984DF203FEACE00DE77BC /* MusicbrainzTestBase.swift */,
+				968984CC203FEABC00DE77BC /* Mock Implementation */,
 			);
 			path = SwiftMusicbrainzTests;
 			sourceTree = "<group>";
@@ -234,8 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968984D8203FEABD00DE77BC /* artist-pink-floyd in Resources */,
-				968984D7203FEABD00DE77BC /* artist-pink-floyd.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960BF8D62608D229005075E1 /* artist-pink-floyd in Resources */,
+				960BF8D52608D229005075E1 /* artist-pink-floyd.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +258,6 @@
 				968984DC203FEABD00DE77BC /* Work.swift in Sources */,
 				968984D5203FEABD00DE77BC /* Musicbrainz.swift in Sources */,
 				968984D9203FEABD00DE77BC /* ISWC.swift in Sources */,
-				968984DB203FEABD00DE77BC /* MockMusicbrainz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +269,7 @@
 				968984E5203FEB6F00DE77BC /* JSONTestBase.swift in Sources */,
 				968984E6203FEB6F00DE77BC /* ClientTestBase.swift in Sources */,
 				968984E2203FEACF00DE77BC /* MusicbrainzTestBase.swift in Sources */,
+				960BF8E22608D252005075E1 /* MockMusicbrainz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

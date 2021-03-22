@@ -1,5 +1,6 @@
 //  Copyright © 2018 nrith. All rights reserved.
 
+@testable import SwiftMusicbrainz
 import JSONClient
 import PromiseKit
 import UIKit
